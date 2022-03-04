@@ -1,0 +1,277 @@
+/*common start*/
+body{
+    font-family: Raleway-Regular;
+    font-weight: 400;
+    font-size: 16px;
+  
+}
+
+
+/*common end*/
+
+/*fonts*/
+@font-face{
+    src: url(../font/raleway/Raleway-Regular.ttf);
+    font-family: Raleway-Regular;
+
+}
+font-face{
+    src: url(../font/raleway/Raleway-Light.ttf);
+    font-family: Raleway-Light;
+}
+font-face{
+    src: url(../font/raleway/Raleway-SemiBold.ttf);
+    font-family: Raleway-SemiBold;
+}
+font-face{
+    src: url(../font/raleway/Raleway-BoldItalic.ttf);
+    font-family: Raleway-BoldItalic;
+}
+
+font-face{
+    src: url(../font/raleway/Raleway-Bold.ttf);
+    font-family: Raleway-Bold;
+}
+font-face{
+    src: url(../font/opensans/OpenSans-Regular.ttf);
+    font-family: OpenSans-Regular;
+}
+font-face{
+    src: url(../font/opensans/OpenSans-Bold.ttf);
+    font-family: OpenSans-Bold;
+}
+font-face{
+    src: url(../font/cardo/Cardo-Italic.ttf);
+    font-family: Cardo-Italic;
+}
+/*fonts*/
+/*header start*/
+header{
+	background-color: #313454;
+    padding: 40px 0;
+	
+}
+.logo{
+    width: 100%;
+    height: 80px;
+}
+.menu{}
+.menu ul li a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff !important;
+    padding: 0 35px !important;
+    cursor: pointer;
+}
+.menu ul li a:hover{
+	color: #e84545 !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-color: #313454;
+    padding: 120px 0;
+
+}
+.b_content{
+      
+}
+.b_h4{
+    font-size: 25px;
+    color: red;
+}
+.b_h1 {
+    font-family: OpenSans-Bold;
+    font-size: 76px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.b_h1 span{
+        color: #00ff0d;
+}
+.b_p {
+    margin-bottom: 40px;
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    
+}
+.b_btn {
+    margin-left: 40px;
+    box-shadow: none;
+    height: 40px;
+    width: 90px;
+    cursor: pointer !important;
+    color: #ffffff;
+    background-color: #e84545;
+    outline: 0;
+    transition: .4s;
+    line-height: 25px;
+    border-radius: 32px;
+}
+.b_btn:hover {
+    box-shadow: none;
+    color: #e84545;
+    background-color: #ffffff;
+    outline: 0;
+}
+.h_btn{
+    margin: 0;
+    width: 200px;
+    height: 42px;
+    line-height: 30px;
+}
+.b_img{
+
+}
+.b_img img{
+    width: 100%;
+    height: 400px;
+}
+
+/*banner end*/
+
+
+
+/*product start*/
+
+.product{
+    padding: 100px 0;
+}
+.product_r{
+     text-align: center;
+     margin: 10px 0 10px 0;
+     transition: .4s;
+}
+.product_r:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 35px 20px 10px rgb(0 0 0 / 7%);
+}
+
+.t_img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    }
+.t_img img {
+    width: 100%;
+    align-items: center;
+    height: 212px;
+}
+.t_text{}
+.t_h3 {
+    margin: 40px 0 5px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #2d3033;
+}
+.t_h4 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #e84545;
+
+}
+.t-icon{
+    margin: 30px 0 0;
+}
+.t-icon ul {
+    margin-bottom: 0;
+}
+.t-icon ul li{}
+.t-icon ul li i {
+    font-size: 25px;
+    color: #c6cacc;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    transition: .4s;
+}
+.t-icon ul li i:hover{
+    color: #ffffff;
+    background-color: #6c7279;
+}
+
+/*product end*/
+
+
+
+/*contact start*/
+.contact{
+    background-color: #3a3e64;
+    padding: 65px 0 100px;
+}
+.c_text{
+    color: #6c7279;
+    font-family: Cardo-Italic;
+
+
+}
+.c-form{
+    width: 100%;
+    height: 30px;
+}
+.c-pass{
+  width: 100%;
+  height: 30px;  
+}
+
+.f_h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+.c_content{}
+.c_icon{
+        margin-bottom: 0;
+}
+.c_icon li{}
+.c_icon li i {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #c6cacc;
+    border: 2px solid #6c7279;
+    width: 30px;
+    height: 30px;
+    background: #3a3e64;
+    text-align: center;
+    line-height: 29px;
+    cursor: pointer;
+    transition: .4s;
+}
+.c_icon li i:hover{
+        color: #6c7279;
+    background-color: #ffffff;
+}
+.c_location{}
+
+
+
+/*contact end*/
+/*footer start*/
+.footer{
+    padding: 30px 0;
+    background-color: #313454;
+}
+.f_text{}
+.f_text p{
+    font-family: OpenSans-Regular;
+    font-weight: 400; 
+}
+.f_text span{
+    color: #ffffff;
+}
+/*footer end*/
